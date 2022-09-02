@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Web Site Profile Siswa Kelas</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <style type="text/css">
+        .container {
+            width: 800px;
+            margin: auto;
+        }
+        
+        .header {
+            background-color: #eee;
+            min-height: 50px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #ccc;
+            min-height: 50px;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo img {
+            width: 200px;
+        }
+        .menu ul {
+            padding: 0;
+        }
+
+        .menu ul li {
+            display: inline-block;
+        }
+        .menu ul li a {
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        ul.submenu {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        ul.submenu li {
+            display: block;
+        }
+        ul.submenu li a {
+            display: block;
+            padding: 5px 10px;
+        }
+        ul.submenu {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            text-align: left;
+            position: absolute;
+            top: 20px;
+            left: 0;
+        }
+        .menu ul li {
+            display: inline-block;
+            position: relative;
+        }
+        ul.submenu {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            text-align: left;
+            position: relative;
+            top: 20px;
+            left: 0;
+            display: none;
+        }
+        .menu ul li:hover ul.submenu  {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">   <!-- Div utama kita namai dengan di class container -->
+        <div class="header">
+            <h1>Logo SMK</h1>
+            <div class="logo">
+                <img src="https://smkmuh1-skh.sch.id/wp-content/uploads/2020/12/Logo-smkmutuharjo-web-544.png" width="300">
+            </div>  
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">About</a>
+                        <ul class="submenu">
+                            <li><a href="keahlian.html">Keahlian</a></li>
+                            <li><a href="temandekat.html">Teman Dekat</a></li>
+                            <li><a href="portofolio.html">Portfolio</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <hr>
+            <h1>Contact Me</h1>
+            <p>Email<br> <input type="text" placeholder="Alamat Email"></p><br>
+            <p>pesan<br><textarea name="" id="" cols="30" rows="10">Tulis pesan anda</textarea></p><br>
+            <input type="submit" value="Kirim"> 
+            <br>
+            <p>OR whatsapp <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg" height="20" width="20"> <a href="https://wa.me/6282274129968">Hubungi Saya</a></p>
+            <hr>
+    <div class="footer">
+        <p>copyright 2022 SMK Muhammadiyah 1 Sukoharjo</p>
+    </div>
+</body>
+</html>

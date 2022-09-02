@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Web Site Profile Siswa Kelas</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+    <style type="text/css">
+      .container {
+        width: 800px;
+        margin: auto;
+      }
+
+      .header {
+        background-color: #eee;
+        min-height: 50px;
+        text-align: center;
+      }
+      .footer {
+        background-color: #ccc;
+        min-height: 50px;
+        padding: 20px;
+        text-align: center;
+      }
+      .logo img {
+        width: 200px;
+      }
+      .menu ul {
+        padding: 0;
+      }
+
+      .menu ul li {
+        display: inline-block;
+      }
+      .menu ul li a {
+        padding: 10px 20px;
+        text-decoration: none;
+      }
+      ul.submenu {
+        background-color: #eee;
+        border: 1px solid #ccc;
+        text-align: left;
+      }
+      ul.submenu li {
+        display: block;
+      }
+      ul.submenu li a {
+        display: block;
+        padding: 5px 10px;
+      }
+      ul.submenu {
+        background-color: #eee;
+        border: 1px solid #ccc;
+        text-align: left;
+        position: absolute;
+        top: 20px;
+        left: 0;
+      }
+      .menu ul li {
+        display: inline-block;
+        position: relative;
+      }
+      ul.submenu {
+        background-color: #eee;
+        border: 1px solid #ccc;
+        text-align: left;
+        position: relative;
+        top: 20px;
+        left: 0;
+        display: none;
+      }
+      .menu ul li:hover ul.submenu {
+        display: block;
+      }
+      .jumbotron {
+        font-family: "Raleway", sans-serif;
+        width: 100%;
+        padding: 80px 40px;
+        box-sizing: border-box;
+        text-align: center;
+        color: white;
+        background-color: #aaa;
+        background-image: url(https://cdn.discordapp.com/attachments/898203634670653474/1013293311768940634/IMG-20220828-WA0017.jpg);
+        background-size: cover;
+        position: relative;
+      }
+      .jumbotron h2,
+      .jumbotron p {
+        position: relative;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.4;
+      }
+      .thumbnail {
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+        width: 225px;
+        margin: 10px;
+        float: left;
+      }
+      .thumbnail img {
+        width: 100%;
+      }
+      .content {
+        background-color: #ddd;
+        min-height: 500px;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Div utama kita namai dengan di class container -->
+      <div class="header">
+        <h1>Logo SMK</h1>
+        <div class="logo">
+          <img src="https://smkmuh1-skh.sch.id/wp-content/uploads/2020/12/Logo-smkmutuharjo-web-544.png" width="300" />
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <a href="#">About</a>
+              <ul class="submenu">
+                <li><a href="keahlian.html">Keahlian</a></li>
+                <li><a href="temandekat.html">Teman Dekat</a></li>
+                <li><a href="portofolio.html">Portfolio</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="jumbotron">
+          <div class="overlay"></div>
+          <h2>Hallo Selamat Datang Di Daftar Teman Dekat Saya</h2>
+          <p>Saya itu wibu nolep jadi temen saya dikit</p>
+          <p>sekian.</p>
+        </div>
+        <div class="content">
+          <h2>daftar teman yang tidak ramah bintang 1</h2>
+          <div class="thumbnail">
+            <img src="https://cdn.discordapp.com/attachments/898203634670653474/1013293029139943474/IMG-20220828-WA0013.jpg" />
+            <h2>hallo bang naoal</h2>
+            <p>Kelas XI PPLG 3</p>
+          </div>
+          <div class="thumbnail">
+            <img src="https://cdn.discordapp.com/attachments/898203634670653474/1013293102930350180/IMG-20220807-WA0020.jpg" />
+            <h2>Radiv/Maikel</h2>
+            <p>Kelas XI PPLG 3</p>
+          </div>
+          <div class="thumbnail">
+            <img src="https://cdn.discordapp.com/attachments/898203634670653474/1013293201441968198/IMG-20220828-WA0016.jpg" />
+            <h2>Bang Ipin/insethink</h2>
+            <p>Kelas XI PPLG 3</p>
+          </div>
+          <div class="thumbnail">
+            <img src="https://cdn.discordapp.com/attachments/898203634670653474/1013293164926341120/IMG-20220828-WA0015.jpg" />
+            <h2>Bastiar/Psarkaz</h2>
+            <p>Kelas XI PPLG 3</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>copyright 2022 SMK Muhammadiyah 1 Sukoharjo</p>
+      </div>
+    </div>
+  </body>
+</html>
